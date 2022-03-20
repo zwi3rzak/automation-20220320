@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CDV</title>
-</head>
-<body>
-    <h1>CDV</h1>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JavaScript Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="header">JavaScript Project</h1>
+
+    <section>
+      <h2>Weather</h2>
+      <div id="geo"></div>
+      <div id="weather">
+        <div id="weather-loader" class="loader">Loading...</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>News</h2>
+      <div id="news-list">
+        <div id="news-loader" class="loader">Loading...</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Translate</h2>
+      <div>
+        <label>
+          <span>From</span>
+          <select id="source-lang"></select>
+        </label>
+        <label>
+          <span>To</span>
+          <select id="target-lang"></select>
+        </label>
+      </div>
+      <div>
+        <textarea id="text-to-translate">
+          Awareness of issues such as climate protection and pollution has risen in Germany in the past 20 years, a study shows. And many people are ready to make lifestyle changes as a result.
+        </textarea>
+      </div>
+      <div>
+        <button id="translate">Translate</button>
+      </div>
+      <div id="translated"></div>
+    </section>
+
+    <section>
+      <h2>Gold prices</h2>
+      <div>
+        <label>
+          <span>From</span>
+          <input id="from-date" type="date" value="2022-01-01" />
+        </label>
+        <label>
+          <span>To</span>
+          <input id="end-date" type="date" value="2022-02-13" />
+        </label>
+      </div>
+      <canvas id="canvas"></canvas>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
