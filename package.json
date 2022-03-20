@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zwi3rzak/automation-20220320/issues"
   },
-  "homepage": "https://github.com/zwi3rzak/automation-20220320#readme"
+  "homepage": "https://github.com/zwi3rzak/automation-20220320#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0"
+  }
 }
