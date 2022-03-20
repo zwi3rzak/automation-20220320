@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zwi3rzak/automation-20220320#readme",
   "devDependencies": {
-    "webpack": "^5.70.0"
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }
